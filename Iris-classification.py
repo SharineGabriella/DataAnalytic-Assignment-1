@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-#from sklearn import datasets <---deleted
+#from sklearn import datasets <---deleted 
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
@@ -46,3 +46,5 @@ st.write(iris.target_names[prediction])
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+
+# credit to Dr Yu from AirAsia Academy for teaching Data Analytics
