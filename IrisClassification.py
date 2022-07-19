@@ -7,6 +7,7 @@ st.write("""
 # Simple Iris Flower Prediction App
 This app predicts the **Iris flower** type!
 """)
+st.caption('This is exercise of Data Analytic Course by Air Asia Academy')
 
 st.sidebar.header('User Input Parameters')
 
@@ -43,7 +44,11 @@ st.subheader('Class labels and their corresponding index number')
 #st.image('https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/iris-real.png')
 #st.image('https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/irisflowers.png')
 st.write('Iris-setosa')
-st.image(['https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/s.png', 'https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/setosa.png'])
+st.image('https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/SENTOSA1.png')
+st.write('Iris-versicolor')
+st.image('https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/VERSICOLOR1.png')
+st.write('Iris-virginica')
+st.image('https://raw.githubusercontent.com/SharineGabriella/DataAnalytic-Assignment-IrisClassification/main/VIRGINICA1.png')
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
@@ -51,3 +56,4 @@ st.write(prediction)
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
+#credit to Dr Yu and Dr YanBin from Air Asia Academy
