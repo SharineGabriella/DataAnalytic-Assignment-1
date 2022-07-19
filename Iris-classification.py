@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn import datasets
+#from sklearn import datasets <---deleted
 from sklearn.ensemble import RandomForestClassifier
 
 st.write("""
